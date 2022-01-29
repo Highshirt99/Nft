@@ -1,0 +1,134 @@
+body{
+					background: hsl(217,54%,11%);
+					color:white;
+					box-sizing: border-box;
+}
+
+a{
+color: hsl(215, 32%, 47%);
+text-decoration: none;
+}
+
+.container{
+	margin-top: 150px;
+	text-align: center;	
+	background-color: hsl(216, 50%, 16%);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 90px;
+	margin-right: 90px;
+	border-radius: 15px;
+}
+
+img{
+					border-radius: 10px;
+}
+
+hr{
+					background-color: hsl(215, 32%, 27%);
+					border: none;
+					height: 1px;
+}
+
+.intro{
+					
+					text-align: left;
+					margin-left: 25px !important;
+					font-family: Outfit;
+}
+
+h1{
+					font-size: 18px;
+}
+
+.intro p{
+					color: hsl(215, 32%, 47%);
+				
+}
+
+#founder img{
+					border:1px solid hsl(0, 0%, 100%);
+					border-radius: 50% 50% 50% 50%;
+}
+
+#founder p{
+					color: hsl(215, 32%, 47%);
+						font-family: Outfit;
+						margin-left: 13px;
+						margin-right: 120px;
+					font-size: 10px;
+					
+}
+
+#founder span{
+					color: hsl(0, 0%, 100%);
+						font-family: Outfit;
+}
+
+.details, #founder{
+					display: flex;
+					justify-content: space-between;
+					font-size: 12px;
+					margin-left: 15px;
+					
+}
+
+.details p{
+					margin-right: 23px;
+					font-size: 15px;
+					color: hsl(215, 32%, 47%);
+					font-family: Outfit;
+					
+				
+						
+}
+
+.details h2{
+					color: hsl(178, 100%, 50%);
+					margin-left: 25px;
+					font-family: Outfit;
+					font-size: 17px;
+				
+}
+
+footer{
+					font-size: 13px;
+					font-family: Outfit;
+}
+
+.fa{
+					margin-bottom: 2px;
+					
+					
+}
+
+.fa-clock{
+					color: hsl(215, 32%, 47%);
+					position: absolute;
+					right: 185px;
+					bottom: 585px;
+}
+
+.fa-ethereum{
+
+color: hsl(178, 100%, 50%);
+position: absolute;
+bottom: 585px;
+margin-left: 10px;
+
+
+}
+
+
+#founder{
+				padding-left: 15px;
+				
+}
+					
+ 
+@media only screen and (min-width: 375px) and (max-width:1440px) {
+					.container{
+										width: 300px;
+										margin: 150px;
+					}
+}
